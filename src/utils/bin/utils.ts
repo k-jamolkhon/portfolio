@@ -84,7 +84,6 @@ U   MM 8M   MM   MM    MM    MM YA.    A9 MM   MM 'Mb.  MM    MM YA.   ,A9 MM   
 Type 'help' to see list of available commands.
 Type 'neofetch' to display the summary.
 Type 'theme' to change the theme.
-
 --
 `;
 };
