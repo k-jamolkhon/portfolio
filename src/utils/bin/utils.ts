@@ -8,10 +8,10 @@ export const help = async (args: string[]): Promise<string> => {
   return `Available commands:\n
   ${commands}
   \n
-  ----
-  [tab]\t trigger completion.
-  [ctrl+l] clear terminal.
-  [ctrl+c] cancel command.`;
+-----
+[tab]\t trigger completion.
+[ctrl+l] clear terminal.
+[ctrl+c] cancel command.`;
 };
 
 export const echo = async (args: string[]): Promise<string> => {
@@ -105,6 +105,6 @@ Type 'help' to see list of available commands.
 Type 'neofetch' to display the summary.
 Type 'theme' to change the theme.
 
-----
+-----
 `;
 };
