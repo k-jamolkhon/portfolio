@@ -21,10 +21,23 @@ export const date = async (args: string[]): Promise<string> => {
 };
 
 // export const gui = async (args: string[]): Promise<string> => {
-//   window.open('https://m4tt72.com', '_self');
+//   window.open('', '_self');
 
 //   return 'Opening GUI version...';
 // };
+
+export const cd = async (args: string[]): Promise<string> => {
+  return `unfortunately, i cannot afford more directories.`;
+};
+
+export const ls = async (args: string[]): Promise<string> => {
+  return `a
+    bunch
+    of
+    fake
+    directories 
+    :)`;
+};
 
 export const email = async (args: string[]): Promise<string> => {
   window.open('mailto:kjamolkhon@gmail.com');
@@ -50,7 +63,8 @@ export const vscode = async (args?: string[]): Promise<string> => {
 };
 
 export const sudo = async (args?: string[]): Promise<string> => {
-  return `Permission denied: unable to run the command '${args[0]}' as root.`;
+  return `Permission denied: unable to run the command '${args[0]}' as root.
+          With little power comes... no responsibility?`
 };
 
 export const arcticles = async (args?: string[]): Promise<string> => {
