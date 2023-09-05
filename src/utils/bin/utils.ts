@@ -9,9 +9,9 @@ export const help = async (args: string[]): Promise<string> => {
   ${commands}
   \n
 -----
-[tab]\t trigger completion.
-[ctrl+l] clear terminal.
-[ctrl+c] cancel command.`;
+[tab]  trigger completion.
+[ctrl+l] clear a terminal.
+[ctrl+c] cancel a command.`;
 };
 
 export const echo = async (args: string[]): Promise<string> => {
